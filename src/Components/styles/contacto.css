@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Branding";
+    src: url("../fonts/branding-sf-cmp-bold-webfont.woff");
+}
+
+.AdminSolicitudes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AdminSoliContNombre{
+    display: flex;
+    color: white;
+    font-size: 1.6rem;
+    align-items: center;
+    font-family: "Branding";
+    background-color: #310101;
+    justify-content: space-between;
+}
+.AdminSoliContNombre p{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.AdminContSoli{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.AdminSolicitudes h1{
+    margin-top: 8%;
+    margin-left: 3%;
+    color: #310101;
+    margin-right: auto;
+}
+.AdminSolicitud{
+    background-color: rgb(230, 224, 226);
+    color: #000;
+    border-radius: 5px;
+    margin: 10px;
+    min-width: 30%;
+    width: 30%;
+    max-width: 30%;
+}
+
+.contactoCont {
+    padding-top: 7%;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: 'Calibri';
+}
+
+.form-register {
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 4px;
+}
+
+.parrafo .titulo {
+    font-size: 6rem;
+    font-family: "Branding";
+    margin-bottom: 10px;
+    color: #4f2c38;
+}
+
+.controls {
+    width: 100%;
+    background: #D6D6D6;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #4f2c38;
+    font-size: 18px;
+    color: black;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: black;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register.botons {
+    width: 100%;
+    background: #1f53c5;
+}
+.form-register form input{
+    border: none;
+}
+#select {
+    border: none;
+}
+#textoArea {
+    border: none;
+}
+.formulario {
+    height: 100%;
+    width: 40%;
+    background: fixed;
+    float: right;
+}
+
+.parrafo {
+    height: 100%;
+    width: 40%;
+    background: fixed;
+    float: left;
+    text-align: justify;
+    color: #4f2c38;
+}
+
+.botons {
+    font-size: 17px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    width: 45%;
+    height: 6vh;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3)
+}
+.checkboxCont{
+    border:none;
+    margin-bottom: 10px;
+}
+.checkboxCont input {
+    cursor: pointer;
+    margin: 0px 7px;
+}
+#textoArea{
+    margin: 0px;
+}
+.btn-color {
+    color: white;
+    background-color: #FB5502;
+}
+
+.btn-color:hover {
+    background-color: #FE2A00;
+}
+
+.btn-color:active {
+    background-color: #FE2A00;
+}
+
+@media screen and (max-width: 600px) {
+    .contenedor{
+        display: grid;
+          grid-template-columns: 1fr 2fr;
+          column-gap: 5%;
+    }
+}

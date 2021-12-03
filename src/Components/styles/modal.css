@@ -1,0 +1,50 @@
+.modalContainer{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	z-index: 200;
+	top: -100%;
+	right: 0px;
+	transition: top 0.3s;
+}
+
+.fondoModal{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bodyModal{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.bodyModal div{
+	z-index: 200;
+}
+
+.styleModal{
+	display: flex ; 
+	padding: 20px ; 
+	width: 45% ; 
+	color: #fff ; 
+	border-radius: 5px;
+	flex-direction: column;
+	background-color: #310101;
+}
+
+.btns{
+	display: flex;
+	width: 100%;
+	margin-top: 15px;
+	justify-content: space-evenly;
+}
+
+.btns button{
+	border: none;
+	outline: none;
+}

@@ -1,0 +1,275 @@
+.contenedorReserva{
+	display:flex;
+	padding:5% 5px;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+.title-reservas {
+	font-family: 'Branding';
+	color: #310101;
+	font-size: 72px;
+	line-height: 50px;
+}
+
+.formReserva{
+	display:flex;
+	flex-direction:column;
+	width:65%;
+	padding:2% 15%;
+	border-radius: 5px;
+	background-color: #E5E5E5;
+}
+.formReserva p {
+	line-height: 5px;
+}
+
+.formReserva input {
+	padding: 4px;
+	border-radius: 3px;
+	border: 1px solid #fff;
+	outline: none;
+}
+.formReserva input:focus{
+	outline: 1px solid #6E6D6D;
+}
+.servicio{
+	border-radius: 5px;
+	background-color: #310101;
+	color: #fff;
+	font-weight: bold;
+}
+.formReserva select:focus {
+	outline: 1px solid #6E6D6D;
+}
+.formReserva textarea {
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+}
+.checkboxContenedor{
+	position: relative;
+	border: 1px solid #E5E5E5;
+	display: flex;
+	align-items: center;
+}
+.checkbox{
+	cursor: pointer;
+	background-color: #310101;
+	margin-right: 5px;
+}
+.formReserva button {
+	background-color: #310101;
+	color: #fff;
+	border: none;	
+}
+.formReserva button:focus{
+	outline: 1px solid #6E6D6D;
+}
+
+.formReserva textarea:focus {
+	outline: 1px solid #6E6D6D;
+}
+.formReserva span{
+	color: #E92222;
+}
+.label{
+	width:45%;
+}
+.espacio{
+	height:10px;
+}
+.inputLargo{
+	width:55%;
+}
+
+.nameCont{
+	position: relative;
+}
+.nameVal{
+	position: absolute;
+	opacity: 0;
+	color: #C42424;
+	margin-top: 12px;
+	right: 5px;
+	transition: opacity 0.5s;
+}
+.name{
+	width: 100%;
+}
+
+.telCont{
+	position: relative;
+}
+.telVal{
+	position: absolute;
+	opacity: 0;
+	color: #C42424;
+	margin-top: 12px;
+	right: 5px;
+	transition: opacity 0.5s;
+}
+.tel{
+	width: 100%;
+}
+
+.emailCont{
+	position: relative;
+}
+.emailVal{
+	position: absolute;
+	opacity: 0;
+	color: #C42424;
+	margin-top: 12px;
+	right: 5px;
+	transition: opacity 0.5s;
+}
+.email{
+	width: 100%;
+}
+
+.personasCont{
+	display: flex;
+	position: relative;
+}
+.personasVal{
+	background-color: #E5E5E5;
+	padding: 7px;
+	padding-bottom: 4px;
+	border-radius: 3px;
+	position: absolute;
+	opacity: 0;
+	color: #C42424;
+	margin-top: 12px;
+	right: -9px;
+	bottom: 25px;
+	transition: opacity 0.5s;
+}
+
+.fechaCont{
+	display: flex;
+	position: relative;
+}
+.fechaVal{
+	background-color: #E5E5E5;
+	padding: 7px;
+	padding-bottom: 4px;
+	border-radius: 3px;
+	position: absolute;
+	opacity: 0;
+	color: #C42424;
+	top: -65%;
+	right: -1px;
+	transition: opacity 0.5s;
+}
+.horaVal{
+	background-color: #E5E5E5;
+	padding: 7px;
+	padding-bottom: 4px;
+	border-radius: 3px;
+	position: absolute;
+	opacity: 0;
+	color: #C42424;
+	top: -65%;
+	right: -1px;
+	transition: opacity 0.5s;
+}
+.horaCont{
+	display: flex;
+	position: relative;
+}
+
+.servicioCont{
+	border: #E5E5E5;
+	border-radius: 3px;
+}
+
+.checkboxVal{
+	background-color: #E5E5E5;
+	padding: 7px;
+	padding-bottom: 4px;
+	border-radius: 3px;
+	position: absolute;
+	opacity: 0;
+	color: #C42424;
+	bottom: 60%;
+	left: -1px;
+	transition: opacity 0.5s;
+}
+
+.infoReserva{
+	display: flex;
+	align-items: center;
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.3);
+	font-size: 18px;
+	height: 7vh;
+	margin-bottom: 10px;
+}
+.infoReserva p{
+	padding-left: 15px;
+	margin-bottom: 0px;
+	width: 55%;
+}
+.infoReserva b{
+	padding-right: 15px;
+	text-align: right;
+	width: 45%;
+}
+
+.blanco{
+	background-color: #fff;
+	color: #000;
+}
+
+.btnsReserva{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.btnsReserva button{
+	border: none;
+	outline: none;
+}
+.closeModal{
+	padding: 5px;
+	width: 25%;
+	background-color: #CA3B3B;
+	color: #fff;
+}
+.btnReserva{
+	padding: 5px;
+	width: 25%;
+	background-color: #2D9E45;
+	color: #fff;
+}
+
+
+/* Admin Reservations */
+
+.title-AdReservas{
+	font-family: Branding;
+  font-size: 4rem;
+	color: #4f2c38;
+}
+
+.card-reservations{
+  height: 100%;
+  font-size: small;
+  text-align: justify;
+	background-color: #E6E0E2;
+}
+
+.card-reservations .card-header{
+  display: flex;
+	color: white;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #310101;
+}
+
+.card-reservations .card-header h6{
+	font-size: 1.6rem;
+	font-family: 'Branding';
+	line-height : 22px;
+}

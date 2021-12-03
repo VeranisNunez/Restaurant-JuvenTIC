@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Branding";
+  src: url("../fonts/branding-sf-cmp-bold-webfont.woff");
+}
+
+main {
+  color: #4f2c38;
+}
+
+.top-serv {
+  display: flex;
+  align-items: flex-start;
+}
+
+.title-serv {
+  font-family: Branding;
+  font-size: 6rem;
+}
+
+.text-serv {
+  text-align: justify;
+}
+
+.services .service {
+  background-color: #e6e0e2;
+}
+
+.services h3 {
+  font-family: Branding;
+}
+
+.services p {
+  font-size: small;
+  text-align: justify;
+}
+
+.service a {
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  font-family: Branding;
+  height: min-content;
+  background-color: #ff3c04;
+}
+
+.service .img-serv {
+  min-width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
+.service .img-serv img {
+  width: 100%;
+  height: auto;
+}
+
+@supports(object-fit: cover) {
+  .service .img-serv img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+/* Gestion servicios */
+
+.gestion-ser{
+  text-align: center;
+  justify-content: center;
+  font-family:'Branding';
+}
+
+.gestion-ser a{
+  width: 255px;
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  background-color: #FF3B04;
+}
+.gestion-ser:hover:hover{ color: #59313c; }
+
+.title-Adserv {
+  font-family: Branding;
+  font-size: 4rem;
+}
+
+/* MODAL SERVICIOS */
+
+.modalservice{
+  padding: 10px;
+  display: flex;
+  z-index: 2000;
+  border-radius: 3px ;
+  flex-direction: column;
+}
+
+.dataNameSer, .dataDescriSer{
+	position: relative;
+}
+
+.valName-ser, .valDescri-ser{
+  opacity: 0;
+  color: #C42424;
+  margin-top: 12px;
+  right: 20px;
+  transition: opacity 0.5s;
+  position: absolute;
+}
+
+.btnOk-ser{
+	padding: 5px;
+	width: 32%;
+	background-color: #2D9E45;
+	color: #fff;
+}
